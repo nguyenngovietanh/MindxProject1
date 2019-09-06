@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+body {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/Themes/cover.png);
+    background-size: cover;
+    font-family: initial;
+    bottom: 30%;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #000000;
+}
+
+nav p {
+  font-family: initial;
+  color: #222;
+  font-size: 24px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 20px;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  font-family: initial;
+  color: #fff;
+  font-size: 18px;
+  padding: 24px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px; 
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li{
+  width: 180px;
+  border-radius: 4px;
+}
+
+nav ul li ul li a{
+  font-family: initial;
+  color: #fff;
+  font-size: 18px;
+}
+
+nav ul li ul li:hover{
+  background-color: #e76718;
+  color: #000;
+}
+
+.title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  font-family: monospace;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .search-container {
+  float: right;
+}
+
+nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+nav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ff801f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+nav .search-container button:hover {
+  background: #ccc;
+}
+
+
+.slide-show{
+  min-height: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
